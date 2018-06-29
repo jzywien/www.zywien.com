@@ -1,0 +1,15 @@
+{
+  "name": "jarrod.zywien.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "test",
+    "start": "dev_appserver.py app.yaml",
+    "deploy": "appcfg.py update --no_cookies --noauth_local_webserver ."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
